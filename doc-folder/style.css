@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.color-51 {
+  color: rgb(51, 51, 51);
+}
+.intro-font {
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 16px;
+}
+.fonts {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
+.font {
+  font-weight: 300;
+  line-height: 34px;
+  font-size: 17px;
+}
+.border-bottom {
+  border-bottom: 1px solid rgb(198, 195, 195);
+  width: 250px;
+}
+.bg_white {
+  background-color: #047aed;
+}
+.shadow {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.flex_center_between {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_center_around {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex_center_evenly {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.flex_between_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.bottom {
+  padding: 4rem 0;
+  margin-top: 15px;
+  background-color: #002240;
+  width: 100%;
+}
+.nav {
+  padding-top: 20px;
+}
+.main-wrapper {
+  padding: 0 120px 20px 120px;
+  width: 100%;
+}
+.br {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+}
+.color-white {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.pointer {
+  cursor: pointer;
+}
+.nav_c_two_padding {
+  padding: 6px 12px;
+}
+.nav_c_two {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.home:hover {
+  border-bottom: 3px solid white;
+}
+.section-one {
+  margin-top: 40px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 77px;
+}
+.learn {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.essential {
+  background-color: rgb(244, 244, 244);
+  width: 320px;
+  padding: 60px 30px 30px 30px;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.group {
+  transition: font-weight 0.15s;
+}
+.group:hover {
+  font-weight: 400;
+}
+#install {
+  margin: 20px 0;
+}
+#introduction {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.brew {
+  background-color: #333333;
+  font-family: monospace;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.require {
+  margin: 20px 0;
+}
+.lorem {
+  margin-bottom: 15px;
+}
+.intro {
+  width: 650px;
+  padding: 30px 20px 10px 20px;
+  border-radius: 10px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+.info-wrap {
+  background-color: #5cb85c;
+  margin: 25px 0;
+  width: 100%;
+  padding: 10px 30px 10px 2px;
+}
+.introduction-wrap {
+  margin-top: 50px;
+}
+button {
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: font-weight 0.15s, transform 0.15s;
+}
+button:hover {
+  font-weight: 400;
+  transform: scale(0.95);
+}
+.info {
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 16px;
+}
+.fa-info {
+  margin-left: 15px;
+}
+
+.fa-github:hover {
+  color: black;
+}
+.fa-facebook:hover,
+.fa-twitter:hover {
+  color: #047aed;
+}
+.fa-instagram:hover {
+  color: purple;
+}
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer {
+    display: block;
+  }
+  .main-wrapper {
+    text-align: center;
+    padding: 0;
+  }
+  .flex_between {
+    display: block;
+  }
+  .br {
+    font-size: 30px;
+  }
+  .nav {
+    text-align: center;
+  }
+  .nav_c_two {
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 70%;
+    background-color: #0870d9;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+  }
+  .flex_center_around {
+    display: block;
+    padding: 0 50px;
+  }
+  .flex_between_column {
+    margin: 40px 0 30px 0;
+    font-size: 13px;
+  }
+  #logo {
+    font-size: 27px;
+  }
+  .learn {
+    width: 240px;
+    margin-left: 60px;
+  }
+  h1 {
+    margin-left: 70px;
+  }
+  .doc-img {
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .essential {
+    margin-top: 0;
+    width: 280;
+  }
+  .intro {
+    margin-left: 38px;
+    margin-right: 29px;
+  }
+  .info-wrap {
+    padding-top: 5px;
+  }
+}
