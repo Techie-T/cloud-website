@@ -73,6 +73,9 @@ a {
   line-height: 26px;
   font-weight: 300;
 }
+.home {
+  transition: border-bottom 0.1s;
+}
 .home:hover {
   border-bottom: 3px solid white;
 }
@@ -147,6 +150,9 @@ h1 {
 }
 .treasure {
   margin-bottom: 15px;
+}
+.fab {
+  transition: color 0.15s;
 }
 .fa-github:hover {
   color: black;
